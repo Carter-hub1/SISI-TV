@@ -1,6 +1,6 @@
 {
-  "versionCode": 28,
-  "versionName": "0.13.9",
+  "versionCode": 36,
+  "versionName": "0.14.0",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Quest fix: films the headset can't decode switch to the backup player automatically."
+  "notes": "Tidier Home, Films and Series rows with no repeats; genre rows from the film catalogue; Settings \u203a rows editor; watched films sync between linked devices; Quest fixes (Dolby sound, controls, screensaver)."
 }

@@ -284,7 +284,9 @@ async function resolveSource(meta, s, season, episode) {
   if (s.url) {
     const file = s.filename || decodeURIComponent(new URL(s.url).pathname.split('/').pop() || '') ||
       (meta.type === 'series' && episode ? `${meta.name} S${pad2(season)}E${pad2(episode)}` : meta.name);
-    return { url: s.url, file, link: s.url, direct: true, rdId: null };
+    // keep the torrent's id if the add-on gave one (or it's inside the link): needed for the browser-friendly stream
+    const hash = s.hash || ((/(?:^|[\/=:_-])([a-f0-9]{40})(?=$|[\/?&=:_.-])/i.exec(s.url) || [])[1] || '').toLowerCase() || null;
+    return { url: s.url, file, link: s.url, direct: true, rdId: null, hash, fileIdx: s.fileIdx, trackers: s.trackers || [] };
   }
   const { id, added } = await RD.addMagnetAndWait(s.hash, Magnets.link(s.hash, s.trackers));
   try {
@@ -587,12 +589,22 @@ const Player = {
     this.msg('Switching to the browser-friendly stream…');
     try {
       let id = c.r.rdId;
-      if (!id) {                                      // a link from an add-on: find it in your Real-Debrid downloads
-        const name = (c.r.file || '').toLowerCase();
+      if (!id) {                                      // a link from an add-on (like Debridio): find the file in your Real-Debrid downloads
+        const norm = x => String(x || '').toLowerCase().replace(/\.[a-z0-9]{2,4}$/, '').replace(/[^a-z0-9]+/g, '');
+        const name = norm(c.r.file);
         const dl = await RD.downloads().catch(() => []);
-        id = dl.find(d => d.download === c.r.url || (name && (d.filename || '').toLowerCase() === name))?.id;
+        const recent = dl.filter(d => Date.now() - Date.parse(d.generated || 0) < 10 * 60000);
+        id = (dl.find(d => d.download === c.r.url || d.link === c.r.url) ||
+              (name && dl.find(d => norm(d.filename) === name)) ||
+              (name.length > 6 && dl.find(d => norm(d.filename).includes(name) || name.includes(norm(d.filename)))) ||
+              recent[0])?.id;                                    // the add-on just opened it through your account: the newest one
       }
       if (!id) { const u = await RD.unrestrict(c.r.url).catch(() => null); id = u?.id; }
+      if (!id && c.r.hash) {                          // last resort: open the same torrent on Real-Debrid ourselves
+        this.msg('Getting it ready on Real-Debrid…');
+        const again = await resolveSource(c.meta, { hash: c.r.hash, fileIdx: c.r.fileIdx, trackers: c.r.trackers }, c.season, c.episode);
+        id = again.rdId;
+      }
       if (!id) throw new Error("Real-Debrid doesn't have a browser-friendly version of this source");
       const t = await RD.transcode(id);
       const hlsUrl = t?.apple?.full || t?.liveMP4?.full;

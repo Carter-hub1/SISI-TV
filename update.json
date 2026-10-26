@@ -1,6 +1,6 @@
 {
-  "versionCode": 25,
-  "versionName": "0.13.6",
+  "versionCode": 26,
+  "versionName": "0.13.7",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "About now shows the version you're running."
+  "notes": "Linked devices: keep the same add-ons on your TV and Quest. Settings \u203a Linked devices."
 }

@@ -1,6 +1,6 @@
 {
-  "versionCode": 37,
-  "versionName": "0.14.1",
+  "versionCode": 38,
+  "versionName": "0.14.2",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Fix: on a series' season page you can now move across Season 1, 2, 3\u2026 with the remote (the cursor no longer jumps back into the episode list)."
+  "notes": "Steadier when scrolling fast (visible pictures load first, passed ones are skipped); if Android ever closes SISI, the next start shows why. Season buttons work with the remote."
 }

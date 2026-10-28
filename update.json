@@ -1,6 +1,6 @@
 {
-  "versionCode": 36,
-  "versionName": "0.14.0",
+  "versionCode": 37,
+  "versionName": "0.14.1",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Tidier Home, Films and Series rows with no repeats; genre rows from the film catalogue; Settings \u203a rows editor; watched films sync between linked devices; Quest fixes (Dolby sound, controls, screensaver)."
+  "notes": "Fix: on a series' season page you can now move across Season 1, 2, 3\u2026 with the remote (the cursor no longer jumps back into the episode list)."
 }

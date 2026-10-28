@@ -1,6 +1,6 @@
 {
-  "versionCode": 38,
-  "versionName": "0.14.2",
+  "versionCode": 39,
+  "versionName": "0.14.3",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Steadier when scrolling fast (visible pictures load first, passed ones are skipped); if Android ever closes SISI, the next start shows why. Season buttons work with the remote."
+  "notes": "Uses much less memory so Android stops closing SISI when you scroll fast: smaller picture cache, lighter posters, and memory freed when the system asks."
 }

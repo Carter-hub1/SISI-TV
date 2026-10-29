@@ -1,6 +1,6 @@
 {
-  "versionCode": 39,
-  "versionName": "0.14.3",
+  "versionCode": 40,
+  "versionName": "0.14.4",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Uses much less memory so Android stops closing SISI when you scroll fast: smaller picture cache, lighter posters, and memory freed when the system asks."
+  "notes": "No more crash pop-up: if SISI closes unexpectedly, the details are sent quietly so they can be fixed."
 }

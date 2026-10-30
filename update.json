@@ -1,6 +1,6 @@
 {
-  "versionCode": 41,
-  "versionName": "0.14.5",
+  "versionCode": 42,
+  "versionName": "0.15.0",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Every series now opens the season page with episode pictures and names, even if it isn't in your library. Hold OK on an episode for its sources."
+  "notes": "Faster start: Live TV (playlist and guide) now loads only when you open Live TV or the Guide. New Settings option: Reset Live TV (remove all channels)."
 }

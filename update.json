@@ -1,6 +1,6 @@
 {
-  "versionCode": 44,
-  "versionName": "0.16.0",
+  "versionCode": 45,
+  "versionName": "0.16.1",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Profile pictures, a punchy start sound (when SISI opens and when a film or series starts), and OK on a poster opens its list of links."
+  "notes": "Bigger profile pictures that fill the whole tile, and the picture on the highlighted profile wiggles."
 }

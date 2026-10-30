@@ -1,6 +1,6 @@
 {
-  "versionCode": 47,
-  "versionName": "0.18.0",
+  "versionCode": 49,
+  "versionName": "0.19.1",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Hotfix"
+  "notes": "Voice search · Auto-retry off"
 }

@@ -1,6 +1,6 @@
 {
-  "versionCode": 43,
-  "versionName": "0.15.1",
+  "versionCode": 44,
+  "versionName": "0.16.0",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "If a source doesn't play, Back now returns to the Sources list so you can pick another (not the film page)."
+  "notes": "Profile pictures, a punchy start sound (when SISI opens and when a film or series starts), and OK on a poster opens its list of links."
 }

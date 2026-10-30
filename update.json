@@ -1,6 +1,6 @@
 {
-  "versionCode": 42,
-  "versionName": "0.15.0",
+  "versionCode": 43,
+  "versionName": "0.15.1",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Faster start: Live TV (playlist and guide) now loads only when you open Live TV or the Guide. New Settings option: Reset Live TV (remove all channels)."
+  "notes": "If a source doesn't play, Back now returns to the Sources list so you can pick another (not the film page)."
 }

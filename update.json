@@ -1,6 +1,6 @@
 {
-  "versionCode": 45,
-  "versionName": "0.16.1",
+  "versionCode": 46,
+  "versionName": "0.17.0",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Bigger profile pictures that fill the whole tile, and the picture on the highlighted profile wiggles."
+  "notes": "Profile pictures come alive: a unique move for each picture and a sparkle pop when you choose a profile. Change it in Settings \u203a Profile picture animation."
 }

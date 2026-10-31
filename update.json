@@ -1,6 +1,6 @@
 {
-  "versionCode": 53,
-  "versionName": "0.19.5",
+  "versionCode": 54,
+  "versionName": "0.19.6",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Pause shows title · Season & episode"
+  "notes": "Smarter retry · Continue watching kept"
 }

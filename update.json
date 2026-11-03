@@ -1,6 +1,6 @@
 {
-  "versionCode": 56,
-  "versionName": "0.19.8",
+  "versionCode": 57,
+  "versionName": "0.19.9",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Streaming: no repeated titles, and the remote no longer jumps while rows load"
+  "notes": "Menu fits again: Settings is no longer cut off at the bottom"
 }

@@ -1,6 +1,6 @@
 {
-  "versionCode": 54,
-  "versionName": "0.19.6",
+  "versionCode": 55,
+  "versionName": "0.19.7",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Smarter retry · Continue watching kept"
+  "notes": "New Streaming section: Netflix, Prime Video, Disney+ and more, with a country picker in Settings"
 }

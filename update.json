@@ -1,6 +1,6 @@
 {
-  "versionCode": 59,
-  "versionName": "0.19.11",
+  "versionCode": 60,
+  "versionName": "0.19.12",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Streaming: US and UK together, Viki added, faster loading, and no more Real-Debrid sign-in message at the top"
+  "notes": "Streaming: Back returns to the service you opened, full rows for US-only services, faster loading"
 }

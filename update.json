@@ -1,6 +1,6 @@
 {
-  "versionCode": 60,
-  "versionName": "0.19.12",
+  "versionCode": 61,
+  "versionName": "0.19.13",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Streaming: Back returns to the service you opened, full rows for US-only services, faster loading"
+  "notes": "Streaming uses a new, hidden key (needed so Streaming keeps loading)"
 }

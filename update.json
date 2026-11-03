@@ -1,6 +1,6 @@
 {
-  "versionCode": 57,
-  "versionName": "0.19.9",
+  "versionCode": 59,
+  "versionName": "0.19.11",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Menu fits again: Settings is no longer cut off at the bottom"
+  "notes": "Streaming: US and UK together, Viki added, faster loading, and no more Real-Debrid sign-in message at the top"
 }

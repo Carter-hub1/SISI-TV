@@ -1,6 +1,6 @@
 {
-  "versionCode": 55,
-  "versionName": "0.19.7",
+  "versionCode": 56,
+  "versionName": "0.19.8",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "New Streaming section: Netflix, Prime Video, Disney+ and more, with a country picker in Settings"
+  "notes": "Streaming: no repeated titles, and the remote no longer jumps while rows load"
 }

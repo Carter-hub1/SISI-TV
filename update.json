@@ -1,6 +1,6 @@
 {
-  "versionCode": 61,
-  "versionName": "0.19.13",
+  "versionCode": 62,
+  "versionName": "0.19.14",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Streaming uses a new, hidden key (needed so Streaming keeps loading)"
+  "notes": "Back from an episode returns to its season page; series reopen on the episode you last started; streamed episodes show Watched; Settings > Report an issue"
 }

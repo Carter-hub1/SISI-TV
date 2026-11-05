@@ -1,6 +1,6 @@
 {
-  "versionCode": 62,
-  "versionName": "0.19.14",
+  "versionCode": 64,
+  "versionName": "0.19.16",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Back from an episode returns to its season page; series reopen on the episode you last started; streamed episodes show Watched; Settings > Report an issue"
+  "notes": "Live TV: choose which playlist groups to load (Settings); Continue watching: back out within 10 minutes opens the Sources list, then the season page"
 }

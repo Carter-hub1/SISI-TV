@@ -1,6 +1,6 @@
 {
-  "versionCode": 69,
-  "versionName": "0.19.21",
+  "versionCode": 71,
+  "versionName": "0.19.23",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Settings: send your Live TV group list (names and counts only) so the picks can be tuned"
+  "notes": "Live TV: My picks now match your playlist names (UK, USA, VIP Premier League, Nigeria, locked adult); Nollywood Top rated fixed"
 }

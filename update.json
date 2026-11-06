@@ -1,6 +1,6 @@
 {
-  "versionCode": 68,
-  "versionName": "0.19.20",
+  "versionCode": 69,
+  "versionName": "0.19.21",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Live TV groups: only the groups you tick are loaded; the picker starts with just your picks ticked"
+  "notes": "Settings: send your Live TV group list (names and counts only) so the picks can be tuned"
 }

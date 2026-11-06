@@ -1,6 +1,6 @@
 {
-  "versionCode": 66,
-  "versionName": "0.19.18",
+  "versionCode": 67,
+  "versionName": "0.19.19",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Sources: ones that failed sink to the bottom for 3 days; a new episode lists last time's release first"
+  "notes": "Live TV: loads only your picked groups (big playlists stay light); adult channels are locked behind a PIN"
 }

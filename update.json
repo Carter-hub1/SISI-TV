@@ -1,1 +1,6 @@
-{"versionCode": 65, "versionName": "0.19.17", "apk": "SISI-TV.apk", "notes": "Streaming: new Nollywood tile with films and series made in Nigeria"}
+{
+  "versionCode": 65,
+  "versionName": "0.19.17",
+  "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
+  "notes": "Streaming: new Nollywood tile with films and series made in Nigeria"
+}

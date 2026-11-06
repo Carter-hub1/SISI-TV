@@ -1,6 +1,6 @@
 {
-  "versionCode": 67,
-  "versionName": "0.19.19",
+  "versionCode": 68,
+  "versionName": "0.19.20",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Live TV: loads only your picked groups (big playlists stay light); adult channels are locked behind a PIN"
+  "notes": "Live TV groups: only the groups you tick are loaded; the picker starts with just your picks ticked"
 }

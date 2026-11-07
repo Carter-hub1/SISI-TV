@@ -1,6 +1,6 @@
 {
-  "versionCode": 76,
-  "versionName": "0.19.28",
+  "versionCode": 77,
+  "versionName": "0.19.29",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Voice search for films and series: press the mic in the menu and say something like something funny under two hours; Live TV voice commands removed"
+  "notes": "Voice search now shows all the films and series it can find, and a spoken title shows the full list"
 }

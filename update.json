@@ -1,6 +1,6 @@
 {
-  "versionCode": 73,
-  "versionName": "0.19.25",
+  "versionCode": 74,
+  "versionName": "0.19.26",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Adult channels lock again when you leave the app; TV guide no longer fails on a stray character"
+  "notes": "Live TV guide: read in one pass and trimmed to your channels; playlist only re-downloads every 12 hours"
 }

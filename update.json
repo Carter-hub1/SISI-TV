@@ -1,6 +1,6 @@
 {
-  "versionCode": 71,
-  "versionName": "0.19.23",
+  "versionCode": 73,
+  "versionName": "0.19.25",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Live TV: My picks now match your playlist names (UK, USA, VIP Premier League, Nigeria, locked adult); Nollywood Top rated fixed"
+  "notes": "Adult channels lock again when you leave the app; TV guide no longer fails on a stray character"
 }

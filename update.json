@@ -1,6 +1,6 @@
 {
-  "versionCode": 74,
-  "versionName": "0.19.26",
+  "versionCode": 75,
+  "versionName": "0.19.27",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Live TV guide: read in one pass and trimmed to your channels; playlist only re-downloads every 12 hours"
+  "notes": "Voice: mic in the menu, ask in plain words, go to a channel, channels showing a team, spoken replies (pick a voice in Settings)"
 }

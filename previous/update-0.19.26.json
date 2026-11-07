@@ -1,0 +1,6 @@
+{
+  "versionCode": 74,
+  "versionName": "0.19.26",
+  "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
+  "notes": "Live TV guide: read in one pass and trimmed to your channels; playlist only re-downloads every 12 hours"
+}

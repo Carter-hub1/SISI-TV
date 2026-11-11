@@ -1,6 +1,6 @@
 {
-  "versionCode": 79,
-  "versionName": "0.19.31",
+  "versionCode": 80,
+  "versionName": "0.19.32",
   "apk": "https://raw.githubusercontent.com/Carter-hub1/SISI-TV/main/SISI-TV.apk",
-  "notes": "Auto subtitles when the audio isn't your language (switch in Settings or the Subtitles menu); the player now works with Alexa pause and play"
+  "notes": "Subtitles are now on for every film and episode (switch in Settings or the Subtitles menu); a clear message says why when none are found"
 }
